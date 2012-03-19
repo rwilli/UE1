@@ -1,0 +1,25 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #FFFFFF;
+}
+#header {
+	height: 100px;
+  	background: url("../img/dots.png") repeat;
+}
+#headerleft {
+	position: absolute;
+	width: 200px;
+  height: 80px;
+  background: url("../img/header_left.png") no-repeat left top;
+}
+#headerright {
+	position: absolute;
+	right: 10px;
+	width: 400px;
+	height: 80px;
+  	background: url("../img/header_right.png") no-repeat right;
+}
+#nav {
+
+}
