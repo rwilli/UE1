@@ -13,22 +13,80 @@
 			<div id="headerright">
   			</div>
 		</div>
+		
 		<div id="nav">
 			| Zur&uuml;ck zur Lounge | Einloggen
 		</div>
-		Registrieren
-		<br />
+		<div id="main">
+		<h1>Registrieren</h1>
+		
 		Bitte f&uuml;llen Sie das untenstehende Formular aus!
 		<br />
-		Pers&ouml;nliche Daten
+		
+		<h2>Pers&ouml;nliche Daten</h2>
+		
+		<table style="width: 350px; height: 80px;">
+			<tr>
+				<td>
+					Vorname
+				</td>
+				<td>
+					<input type="text" name="vorname" id="vorname" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Nachname
+				</td>
+				<td>
+					<input type="text" name="nachname" id="nachname" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Geburtsdatum
+				</td>
+				<td>
+					<input type="text" name="geburtsdatum" id="geburtsdatum" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Geschlecht
+				</td>
+				<td>
+					<select name="geschlecht" id="geschlecht">
+						<option>weiblich</option>
+						<option>m&auml;nnlich</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		
 		<br />
-		Vorname
+		
+		<h2>Login Daten</h2>
+		
+		<table style="width: 440px; height: 50px;">
+			<tr>
+				<td>
+					Username
+				</td>
+				<td>
+					<input type="text" name="username" id="username" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Passwort
+				</td>
+				<td>
+					<input type="text" name="passwort" id="passwort" />
+				</td>
+			</tr>
+		</table>
 		<br />
-		Nachname
-		<br />
-		Geburtsdatum
-		<br />
-		Geschlecht
-		<br />
+		<input type="submit" value="Registrieren" />
+		</div>
 	</body>
 </html>

@@ -1,14 +1,18 @@
 body {
+	font-family: 'Arial';
+	font-size: 12px;
   	padding: 0px;
   	margin: 0px;
   	background-color: #FFFFFF;
 }
 #header {
-	height: 100px;
+	height: 85px;
   	background: url("../img/dots.png") repeat;
 }
 #headerleft {
 	position: absolute;
+	left: 25px;
+	top: 6px;
 	width: 200px;
  	height: 80px;
   	background: url("../img/header_left.png") no-repeat left top;
@@ -21,5 +25,16 @@ body {
   	background: url("../img/header_right.png") no-repeat right;
 }
 #nav {
-	text-align:right
+	text-align:right;
+	color: white;
+	padding: 5px;
+	background-color: #003366;
+}
+#main {
+	margin: 10px;
+  	position: relative;
+}
+h1, h2 {
+	font-family: 'Arial';
+	color: #f29400;
 }
