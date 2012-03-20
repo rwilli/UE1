@@ -50,3 +50,42 @@ h1, h2 {
 	font-family: 'Arial';
 	color: #f29400;
 }
+
+/* Hier is die neue Register Form ohne table*/
+
+ .formLayout
+  {
+      background-color: #ffffff;
+      padding: 10px;
+      width: 400px;
+  }
+  
+  .formLayout input
+  {
+      display: block;
+      width: 230px;
+      float: left;
+      margin-bottom: 7px;
+  }
+
+  .formLayout label
+  {
+      display: block;
+      width: 100px;
+      float: left;
+      margin-bottom: 7px;
+      text-align: left;
+      padding-right: 5px;
+  }
+  
+
+  br
+  {
+      clear: left;
+  }
+  
+  .button {
+      margin-left: 10px;
+  }
+
+/** END REGISTER FILE*/
