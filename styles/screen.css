@@ -1,5 +1,6 @@
 body {
-	font-family: 'Arial';
+	/*font-family: 'Arial';  */
+  font-family:Tahoma,sans-serif;
 	font-size: 12px;
   	padding: 0px;
   	margin: 0px;
@@ -30,6 +31,10 @@ body {
 	padding: 5px;
 	background-color: #003366;
 }
+
+#navseparator{
+  color: #585858;
+}
 #menu {
   position: absolute;
   top: 109px;
@@ -43,11 +48,15 @@ body {
 	margin: 5px;
 }
 #main {
-	margin: 10px;
+
   	position: relative;
+    margin-left:10px;
+    font-family:Tahoma,sans-serif;
 }
 h1, h2 {
-	font-family: 'Arial';
+	/*font-family: 'Arial';  /
+  font-weight:bold; */
+  font-family:Tahoma,sans-serif;
 	color: #f29400;
 }
 
@@ -58,6 +67,7 @@ h1, h2 {
       background-color: #ffffff;
       padding: 10px;
       width: 400px;
+      
   }
   
   .formLayout input
@@ -76,6 +86,7 @@ h1, h2 {
       margin-bottom: 7px;
       text-align: left;
       padding-right: 5px;
+      padding-top:5px
   }
   
 

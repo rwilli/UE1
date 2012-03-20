@@ -16,90 +16,21 @@
 		</div>
 		
 		<div id="nav">
-			| Zur&uuml;ck zur Lounge | Einloggen
+			<font color="#666">|</font> Zur&uuml;ck zur Lounge <font color="#666"> | </font>Einloggen
 		</div>
 		<div id="main">
-		<!--h1>Registrieren</h1>
+              
+    <!-- HERE WE GO AGAIN -->
 		
-		Bitte f&uuml;llen Sie das untenstehende Formular aus!
-		<br />
-		
-		<h2>Pers&ouml;nliche Daten</h2>
-		
-		<table style="width: 350px; height: 80px;">
-			<tr>
-				<td>
-					Vorname
-				</td>
-				<td>
-					<input type="text" name="vorname" id="vorname" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Nachname
-				</td>
-				<td>
-					<input type="text" name="nachname" id="nachname" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Geburtsdatum
-				</td>
-				<td>
-					<input type="text" name="geburtsdatum" id="geburtsdatum" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Geschlecht
-				</td>
-				<td>
-					<select name="geschlecht" id="geschlecht">
-						<option>weiblich</option>
-						<option>m&auml;nnlich</option>
-					</select>
-				</td>
-			</tr>
-		</table>
-		
-		<br />
-		<h2>Login Daten</h2>
-		
-		<table style="width: 440px; height: 50px;">
-			<tr>
-				<td>
-					Username
-				</td>
-				<td>
-					<input type="text" name="username" id="username" />
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Passwort
-				</td>
-				<td>
-					<input type="text" name="passwort" id="passwort" />
-				</td>
-			</tr>
-		</table>
-		<br />
-		<input type="submit" value="Registrieren" /-->
-		</div>
     
-                 
-    <!-- HIER WE GO AGAIN -->
-		
-    <div class="formLayout">
       <h1>Registrieren</h1>
 		
 		Bitte f&uuml;llen Sie das untenstehende Formular aus!
 		<br><br />
 		
 		<h2>  Pers&ouml;nliche Daten</h2>
-       
+    
+        <div class="formLayout">
         <label for="name">Vorname </label> <input type="text" id="name" class="input" />
        
         <label for="name">Nachname </label> <input type="text" id="name" class="input" />
@@ -112,8 +43,13 @@
             <option>Männlich</option>
           </select><br>
         	<br />
-		<h2>Login Daten</h2>
-        
+          
+      </div>
+		
+    <h2>Login Daten</h2>
+    
+        <div class="formLayout">
+    
         <label for="name">Username </label> <input type="text" id="name" class="input" />
         
         <label for="password">Passwort </label> <input type="password" id="password" class="input" />
@@ -125,6 +61,6 @@
     <div>
       <input type="submit" value="Registrieren" class="button" />
     </div>
-    
+   </div> 
 	</body>
 </html>
