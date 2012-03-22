@@ -69,6 +69,10 @@ h1, h2 {
 	background: url("../img/wuerfel1.png") no-repeat center;
 }
 
+a {
+	color: #ffffff;
+}
+
 /* Hier is die neue Register Form ohne table*/
 
  .formLayout
