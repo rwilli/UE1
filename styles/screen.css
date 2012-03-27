@@ -7,6 +7,22 @@ body {
     
     
 }
+#contentsite_reg{
+    
+    background-color: #ffffff;
+    margin-left: 10px;
+	   margin-right: 15px;
+     
+   /*font-family: 'Arial';  */
+    position: relative;
+    font-family:Tahoma,sans-serif;
+  /*text-align:left; /* reset text alignment /
+  margin:0 auto; /* for the rest */
+	 font-size: 12px;
+	 border: solid 1px #003366;
+  
+}
+
 #contentsite{
     width: 960px;
     background-color: #ffffff;
@@ -159,8 +175,10 @@ a {
  }
   
 body p.footer {
+font-family:Tahoma,sans-serif;
+font-size: 12px;
 	text-align: right;
-	margin-right: 145px;
+	margin-right: 15px;
 }
    
  
