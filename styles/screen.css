@@ -101,7 +101,7 @@ a {
       padding-right: 5px;
       padding-top:5px
   }
-  
+ 
 
   br
   {
@@ -113,3 +113,27 @@ a {
   }
 
 /** END REGISTER FILE*/
+ /*   Table.html spielfelder  -- Begin*/
+ #playground
+ {
+	width:  880px;
+  background-color: #999;
+	float:right;
+  top: 109px;
+  margin-right:65px;
+  height: 650px;
+}
+ #playfield{
+    width: 800px;
+    background-color: #fff;
+    letter-spacing:10px
+	  float:right;
+  margin-top: 12px;
+  margin-right:0px;
+  height: 640px; 
+ }
+  
+   
+   
+ 
+ /*   Table.html spielfelder  -- End*/ 
