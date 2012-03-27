@@ -1,14 +1,29 @@
 body {
-	/*font-family: 'Arial';  */
-  font-family:Tahoma,sans-serif;
-	font-size: 12px;
-  	padding: 0px;
-  	margin: 0px;
-  	background-color: #FFFFFF;
+	    position: absolute;
+  	 background-color: #aaaaaa;
+     text-align:center; /* for IE */
+    
+    
 }
+div#contentsite{
+    width: 1000px;
+    height: 800px;
+    margin-left: auto;
+	margin-right: auto;
+   /*font-family: 'Arial';  */
+  font-family:Tahoma,sans-serif;
+  /*text-align:left; /* reset text alignment /
+  margin:0 auto; /* for the rest */
+	font-size: 12px;
+  	
+  	background-color: #ffffff;
+
+}
+
 #header {
 	height: 85px;
-  	background: url("../img/dots.png") repeat;
+  width: auto;
+  	/*background: url("../img/dots.png") repeat-x; */
 }
 #headerleft {
 	position: absolute;
@@ -57,7 +72,7 @@ h1, h2 {
 }
 #wuerfel {
 	position: absolute;
-	left: 205px;
+	left: 200px;
 	width: 120px;
 	height: 120px;
 	background-color: #aaaaaa;
@@ -80,7 +95,6 @@ a {
       background-color: #ffffff;
       padding: 10px;
       width: 400px;
-      
   }
   
   .formLayout input
@@ -116,21 +130,29 @@ a {
  /*   Table.html spielfelder  -- Begin*/
  #playground
  {
-	width:  880px;
-  background-color: #999;
+  position: absolute;
+	width:  625px;
+  background-color: #ffffff;
 	float:right;
-  top: 109px;
-  margin-right:65px;
-  height: 650px;
+  top: 0px;
+  /*margin-right:65px;*/
+  margin-left: 325px;
+  height: 640px;
 }
  #playfield{
-    width: 800px;
-    background-color: #fff;
-    letter-spacing:10px
-	  float:right;
+    width: 600px;
+    /*background-color: #fff; /
+    
+	  float:right;    */
   margin-top: 12px;
   margin-right:0px;
   height: 640px; 
+ }
+ #redcamp{
+    width:100px;
+    height: 100px;
+    background-color: #10639F;
+    margin-top: 12px;
  }
   
    
