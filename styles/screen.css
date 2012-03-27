@@ -1,43 +1,45 @@
+@charset "UTF-8";
+
 body {
-	    position: absolute;
+	    position: relative;
   	 background-color: #aaaaaa;
      text-align:center; /* for IE */
     
     
 }
-div#contentsite{
-    width: 1000px;
-    height: 800px;
+#contentsite{
+    width: 960px;
+    background-color: #ffffff;
     margin-left: auto;
-	margin-right: auto;
+	   margin-right: auto;
+     height:700px;
    /*font-family: 'Arial';  */
-  font-family:Tahoma,sans-serif;
+    position: relative;
+    font-family:Tahoma,sans-serif;
   /*text-align:left; /* reset text alignment /
   margin:0 auto; /* for the rest */
-	font-size: 12px;
-  	
-  	background-color: #ffffff;
-
+	 font-size: 12px;
+  
 }
 
 #header {
 	height: 85px;
   width: auto;
-  	/*background: url("../img/dots.png") repeat-x; */
+  	background: url("../img/dots.png") repeat-x; 
 }
 #headerleft {
 	position: absolute;
 	left: 25px;
 	top: 6px;
 	width: 200px;
- 	height: 80px;
+ 	height: 85px;
   	background: url("../img/header_left.png") no-repeat left top;
 }
 #headerright {
 	position: absolute;
 	right: 10px;
 	width: 400px;
-	height: 80px;
+	height: 85px;
   	background: url("../img/header_right.png") no-repeat right;
 }
 #nav {
@@ -55,7 +57,7 @@ div#contentsite{
   background-color: #003366;
 }
 #menucontent {
-	color: white;
+	color: #ffffff;
 	margin: 5px;
 }
 #main {
@@ -137,16 +139,17 @@ a {
   top: 0px;
   /*margin-right:65px;*/
   margin-left: 325px;
-  height: 640px;
+  
 }
  #playfield{
     width: 600px;
+    text-align:center;
     /*background-color: #fff; /
     
 	  float:right;    */
   margin-top: 12px;
   margin-right:0px;
-  height: 640px; 
+ 
  }
  #redcamp{
     width:100px;
