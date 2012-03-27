@@ -1,46 +1,14 @@
 @charset "UTF-8";
 
 body {
-	    position: relative;
-  	 background-color: #aaaaaa;
-     text-align:center; /* for IE */
-    
-    
-}
-#contentsite_reg{
-    
-    background-color: #ffffff;
-    margin-left: 10px;
-	   margin-right: 15px;
-     
-   /*font-family: 'Arial';  */
-    position: relative;
-    font-family:Tahoma,sans-serif;
-  /*text-align:left; /* reset text alignment /
-  margin:0 auto; /* for the rest */
-	 font-size: 12px;
-	 border: solid 1px #003366;
-  
-}
-
-#contentsite{
-    width: 960px;
-    background-color: #ffffff;
-    margin-left: auto;
-	   margin-right: auto;
-     height:700px;
-   /*font-family: 'Arial';  */
-    position: relative;
-    font-family:Tahoma,sans-serif;
-  /*text-align:left; /* reset text alignment /
-  margin:0 auto; /* for the rest */
-	 font-size: 12px;
-  
+	position: relative;
+  	background-color: #aaaaaa;
+    text-align:center; /* for IE */
 }
 
 #header {
 	height: 85px;
-  width: auto;
+  	width: auto;
   	background: url("../img/dots.png") repeat-x; 
 }
 #headerleft {
@@ -64,22 +32,50 @@ body {
 	padding: 5px;
 	background-color: #003366;
 }
+
+#contentsite_reg{
+    
+    background-color: #ffffff;
+    margin-left: 10px;
+	   margin-right: 15px;
+     
+   /*font-family: 'Arial';  */
+    position: relative;
+    font-family:Tahoma,sans-serif;
+  /*text-align:left; /* reset text alignment /
+  margin:0 auto; /* for the rest */
+	 font-size: 12px;
+	 border: solid 1px #003366;
+  
+}
+
+#contentsite_table{
+    background-color: #ffffff;
+    height: 800px;
+    margin-left: 10px;
+	   margin-right: 15px;
+     
+   /*font-family: 'Arial';  */
+    position: relative;
+    font-family:Tahoma,sans-serif;
+  /*text-align:left; /* reset text alignment /
+  margin:0 auto; /* for the rest */
+	 font-size: 12px;
+  border: solid 1px #003366;
+}
+
+
 #menu {
   position: absolute;
-  top: 109px;
-  left: 0px;
+  padding: 10px;
   width: 215px;
-  height: 250px;
-  background-color: #003366;
+  /*background-color: #003366;*/
+  
 }
-#menucontent {
-	color: #ffffff;
-	margin: 5px;
-}
+
 #main {
 	text-align: left;
   	position: relative;
-    margin-left:10px;
     font-family:Tahoma,sans-serif;
 }
 h1, h2 {
@@ -88,19 +84,20 @@ h1, h2 {
   font-family:Tahoma,sans-serif;
 	color: #f29400;
 }
-#wuerfel {
-	position: absolute;
-	left: 200px;
+#cube {
+	text-align: center;
 	width: 120px;
 	height: 120px;
-	background-color: #aaaaaa;
+	position: relative;
+    left: 250px;
+	background-color: #AAAAAA;
 }
-#wuerfelcontent {
-	width: 120px;
+#cubecontent {
+width: 120px;
 	height: 120px;
-	margin-top: 5px;
 	background: url("../img/wuerfel1.png") no-repeat center;
 }
+
 
 a {
 	color: #ffffff;
